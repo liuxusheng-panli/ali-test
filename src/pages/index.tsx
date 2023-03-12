@@ -6,6 +6,7 @@ export default function HomePage() {
   const [num,setNum] = useState(0)
   return (
     <div>
+      {/* 768px样式使用媒体查询，当屏幕宽度小于768的时候，css样式写适配余768的css */}
       <CouponBanner/>
     </div>
   );
